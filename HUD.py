@@ -54,9 +54,7 @@ soc_text = canvas.create_text(
     text="100%",
     fill="#FFFFFF",
     font=("Lato Bold", 80 * -1)
-)
 
-# if you want to change this color gradient, ask chatgpt how to change it to the colors you want, and paste in the function
 def calculate_charge_color(charge):
     # Calculate a gradient from yellow to red based on charge percentage
     r = 255
